@@ -1,0 +1,172 @@
+/*================================================
+                    TOPO
+================================================*/
+header nav {
+    display: flex;
+    justify-content: space-between;
+   
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+header nav ul li {
+    margin: 1vw 1.5vw 1vw 1.5vw;
+}
+header nav ul li.um a {
+    color: #FBBC05;
+}
+header nav ul li.dois a {
+    color: white;
+    background: #FBBC05;
+    padding: 10px 17px 10px 17px;
+    border-radius: 10px;
+}
+/*================================================
+                    BANNER
+================================================*/
+main section.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(121, 189, 154, 0), rgba(121, 189, 154, 0)), url(../images/Hero\ \(1\).png) no-repeat center center;
+    background-size: cover;
+    padding: 2vw 5vw 2vw 5vw;
+}
+main section.banner div.texto {
+   margin: 0 13vw 0 0 ;
+}
+main section.banner h1 {
+    font-size: 3rem;
+    color: #252B42;
+    font-weight: bold;
+}
+main section.banner div.texto p {
+    margin: 2vw 0 3vw 0;
+    color: gray;
+}
+main section.banner div.texto ul {
+    display: flex;
+}
+main section.banner div.texto ul li {
+    margin: 0 3vw 0 0;
+    font-size: 1.5rem;
+    background: #252B42;
+    padding: 15px 20px 15px 20px;
+    border-radius: 8px;
+}
+main section.banner div.texto ul li a {
+    color: white;
+}
+/*================================================
+                    READY
+================================================*/
+section.ready h2 {
+    color: #252B42;
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 5vw 0 2vw 0;
+}
+section.ready > p {
+    color: gray;
+    text-align: center;
+}
+section.ready div.tudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6vw;
+}
+section.ready div.tudo div {
+    margin: 0 7vw 0 0;
+}
+section.ready div.tudo div span {
+    background-color: #E1F4FF;
+    padding: 1vw;
+    font-size: 2rem;
+    color: #FBBC05;
+    border-radius: 10px;
+}
+section.ready div.tudo div h4 {
+    margin: 1vw 0 1vw 0;
+    font-weight: bold;
+}
+section.ready div.tudo div p {
+    color: gray;
+    margin:  0 0 2vw 0 ;
+}
+section.ready div.tudo div ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+section.ready div.tudo div ul li {
+    width: 40%;
+}
+/*================================================
+                    DOUWNLOAD
+================================================*/
+section.ride {
+    background-color: #FBBC05;
+    margin: 2vw 5vw 2vw 5vw;
+    color: white;
+    background: url(../images/iPhone-13-Pro-Front.png) no-repeat, url(../images/iPhone-13-Pro-Front.png) no-repeat,linear-gradient(#FBBC05, #FBBC05);
+    background-size: 13vw auto, cover;
+    background-position: center 230%, center center;
+    padding: 4vw 5vw 2vw 5vw;
+    border-radius: 1.7vw;
+   
+
+}
+section.ride h2 {
+    font-size: 3rem
+}
+section.ride p {
+    color: white;
+    margin: 1vw 0 2.5vw 0;
+    width: 23%;
+}
+section.ride button {
+    color: white;
+    border: none;
+    background-color: #252B42;
+    padding: 12px 21px 12px 21px;
+    border-radius: 8px;
+}
+/*================================================
+                    KNOW
+================================================*/
+section.know div.tudo2 {
+    display: flex;
+    margin: 6vw ;
+    justify-content: space-between;
+}
+section.know div.tudo2 div.services {
+    margin: 10vw 0 0 10vw ;
+   
+}
+section.know div.tudo2 div.services h3{
+    font-size: 1.4rem;
+    margin: 0 0 1vw 0;
+}
+section.know div.tudo2 div ul li h3 {
+    margin: 3vw 0 1.5vw 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+section.know div.tudo2 div ul li.branding {
+    background-color: #FAD007;
+}
+section.know div.tudo2 div {
+    width: 80%;
+}
+section.know div.tudo2 div ul li {
+    background-color: #F6F6F6;
+    width: 30%;
+    margin: 2vw 1vw 0 0;
+    padding: 2vw;
+}
+section.know div.tudo2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8vw 0 0 0;
+}
